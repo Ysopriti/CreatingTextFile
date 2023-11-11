@@ -27,9 +27,14 @@ namespace FrmLab1
 
             // Call the Close() method afterward
             Close();
+           
+            FrmRegistration formreg = new FrmRegistration();
+            formreg.ShowDialog();
 
-            FrmRegistration form = new FrmRegistration();
-            form.ShowDialog();
+
+
+
+
         }
     }
 }

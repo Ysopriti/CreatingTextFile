@@ -29,7 +29,7 @@ namespace FrmLab1
 
             //Declare a string variable named getInput and get the value of the TextBox named txtInput.
             string getInput = txtInput.Text;
-          
+
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, frmFileName.SetFileName)))
             {

@@ -54,6 +54,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(255, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(172, 31);
@@ -131,6 +132,11 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "BS in Information Technology",
+            "BS in Computer Science",
+            "BS in Information System",
+            "BS in Accountancy"});
             this.comboBox1.Location = new System.Drawing.Point(379, 101);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(187, 21);
@@ -181,6 +187,9 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Female",
+            "Male"});
             this.comboBox2.Location = new System.Drawing.Point(379, 185);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(127, 21);
