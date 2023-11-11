@@ -30,11 +30,6 @@ namespace FrmLab1
            
             FrmRegistration formreg = new FrmRegistration();
             formreg.ShowDialog();
-
-
-
-
-
         }
     }
 }

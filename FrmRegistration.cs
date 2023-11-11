@@ -21,27 +21,22 @@ namespace FrmLab1
         private void button1_Click(object sender, EventArgs e)
         {
             
-            String[] strings = {"Student Number: " + textBox1.Text + "\nFull Name: " + textBox3.Text
-            + "" + textBox4.Text + " " + textBox2.Text + " " + "\nProgram: " + comboBox1.Text + "\nGender: " +
-            comboBox2.Text + "\nAge: " + textBox5.Text + "\nBirthdate: " + dateTimePicker1.Text +
-            "\nContact Number: " + textBox6.Text};
+            String[] stud_info = {"Student Number: " + textBox1.Text, "Full Name: " + textBox3.Text
+            + " " + textBox4.Text + " " + textBox2.Text + " ", "Program: " + comboBox1.Text, "Gender: " +
+            comboBox2.Text, "Age: " + textBox5.Text, "Birthdate: " + dateTimePicker1.Text,
+            "Contact Number: " + textBox6.Text};
 
             string doccPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(doccPath, textBox1.Text + ".txt")))
             {
-                foreach (string s in strings)
+                foreach (string s in stud_info)
                 {
                     outputFile.WriteLine(s);
                 }
-
+               
                 MessageBox.Show("Successfuly created!!!");
                 Close();
             }
-
-
-
-
-
 
         }
     }

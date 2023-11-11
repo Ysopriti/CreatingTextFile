@@ -42,6 +42,7 @@
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(160, 52);
             this.txtInput.TabIndex = 0;
+            this.txtInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCreate
             // 
