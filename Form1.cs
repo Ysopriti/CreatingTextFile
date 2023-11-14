@@ -36,6 +36,8 @@ namespace FrmLab1
                 outputFile.WriteLine(getInput);
                 Console.WriteLine(getInput);
             }
+
+            
         }
     }
 }

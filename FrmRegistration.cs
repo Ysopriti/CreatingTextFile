@@ -39,5 +39,11 @@ namespace FrmLab1
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord reg = new FrmStudentRecord();
+            reg.ShowDialog();
+        }
     }
 }
